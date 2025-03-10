@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Blagues</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #fffdfd, #1675c9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1372b6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#joke {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.btn-create {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Générateur de Blagues</h1>
+        <input type="text" id="contextInput" placeholder="Entrez le contexte de la blague">
+        <button id="generateJoke">Générer une blague</button><br><br>
+        <a href="generateur.html"><button class="btn-create">Retour</button></a>
+  
+        <p id="joke"></p>
+    </div>
+    <script src="scriptia.js"></script>
+</body>
+</html>
