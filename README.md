@@ -44,8 +44,9 @@ Bienvenue sur le Générateur de Mèmes, un site interactif qui permet de créer
 
 ⚙️ Installation et utilisation
 1. Cloner le projet
-    git clone https://github.com/ton-utilisateur/ton-repo.git
-    cd ton-repo
+git clone https://github.com/nickleferu/generateur-de-meme-.git
+cd generateur-de-meme-
+
 2. Lancer le projet localement
     - Ouvre acceuil.html dans ton navigateur.
     - Navigue entre les différentes pages : generateur.html, ia.html.
